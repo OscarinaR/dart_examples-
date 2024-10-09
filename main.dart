@@ -31,3 +31,17 @@ void main(){
 var persona = Persona('Juan');
 persona.mostrarNombre();
 }
+
+//Ejemplo de clases_valor_defecto
+class Persona {
+  String nombre = 'Sin nombre';
+  
+  void mostrarNombre() {
+    print('Nombre: $nombre');
+  }
+}
+
+void main(){
+var persona = Persona();
+persona.mostrarNombre();  
+}
