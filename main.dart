@@ -67,3 +67,35 @@ void main(){
    print('el valor de pi es$PI');
    print('la fecha exacta $fecha');
 }
+
+//Ejemplo de mapa 
+
+void main() {
+
+  var regalos = Map<String, String>();
+  
+
+  regalos['primer'] = 'un loro';
+  regalos['segundo'] = 'dos tortugas';
+  regalos['tercer'] = 'tres gallinas';
+
+  print('Lista de regalos:');
+  regalos.forEach((key, value) {
+    print('$key: $value');
+  });
+  
+  print('Número de regalos: ${regalos.length}');
+
+  final regalosConstantes = const {
+    1: 'pantalones',
+    2: 'media',
+    3: 'ropa'
+  };
+
+  print('\nLista de regalos constantes:');
+  regalosConstantes.forEach((key, value) {
+    print('$key: $value');
+  });
+  
+
+}
