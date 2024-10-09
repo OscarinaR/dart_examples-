@@ -57,3 +57,13 @@ if (edad >= 18) {
   print('Eres menor de edad');
 }
 }
+
+
+//Ejemplo de constantes 
+const PI = 3.1416;  
+final fecha = DateTime.now();  
+
+void main(){
+   print('el valor de pi es$PI');
+   print('la fecha exacta $fecha');
+}
