@@ -45,3 +45,15 @@ void main(){
 var persona = Persona();
 persona.mostrarNombre();  
 }
+
+
+//Ejemplo de condicional 
+
+void main(){
+int edad = 18;
+if (edad >= 18) {
+  print('Eres mayor de edad');
+} else {
+  print('Eres menor de edad');
+}
+}
