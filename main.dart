@@ -99,3 +99,14 @@ void main() {
   
 
 }
+
+//Ejemplo de funcion_parametro_opcional
+
+void mostrarNombre(String nombre, [int edad = 0]) {
+  print('Nombre: $nombre, Edad: $edad');
+}
+
+void main(){
+mostrarNombre('Laura');  
+mostrarNombre('Carlos', 25);  
+}
