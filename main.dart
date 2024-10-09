@@ -15,3 +15,19 @@ void main(){
 var perro = Perro();
 perro.sonido(); 
 }
+
+//sehundo ejemplo de clases_herencias_2
+class Persona {
+  String nombre;
+  
+  Persona(this.nombre);
+  
+  void mostrarNombre() {
+    print('Nombre: $nombre');
+  }
+}
+
+void main(){
+var persona = Persona('Juan');
+persona.mostrarNombre();
+}
